@@ -9,7 +9,7 @@ Summary:	Linux::Pid - get the native PID and the PPID on Linux
 Summary(pl):	Linux::Pid - uzyskiwanie natywnych PID i PPID pod Linuksem
 Name:		perl-Linux-Pid
 Version:	0.02
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
