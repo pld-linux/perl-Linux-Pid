@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Linux
 %define	pnam	Pid
-Summary:	Linux::Pid - Get the native PID and the PPID on Linux
+Summary:	Linux::Pid - get the native PID and the PPID on Linux
 Summary(pl):	Linux::Pid - uzyskiwanie natywnych PID i PPID pod Linuksem
 Name:		perl-Linux-Pid
 Version:	0.02
