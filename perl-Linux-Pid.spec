@@ -6,7 +6,7 @@
 %define		pdir	Linux
 %define		pnam	Pid
 Summary:	Linux::Pid - get the native PID and the PPID on Linux
-Summary(pl):	Linux::Pid - uzyskiwanie natywnych PID i PPID pod Linuksem
+Summary(pl.UTF-8):   Linux::Pid - uzyskiwanie natywnych PID i PPID pod Linuksem
 Name:		perl-Linux-Pid
 Version:	0.03
 Release:	1
@@ -28,11 +28,11 @@ multithreaded programs. Linux's C library returns different values of
 the PID and the PPID from different threads. This module forces Perl
 to call the underlying C functions getpid() and getppid().
 
-%description -l pl
+%description -l pl.UTF-8
 Linux::Pid odczytuje natywne PID i PPID pod Linuksem. Jest przydatny w
-programach wielow±tkowych. Linuksowa biblioteka C zwraca ró¿ne
-warto¶ci PID i PPID dla ró¿nych w±tków. Ten modu³ zmusza Perla do
-wywo³ania funkcji C getpid() i getppid().
+programach wielowÄ…tkowych. Linuksowa biblioteka C zwraca rÃ³Å¼ne
+wartoÅ›ci PID i PPID dla rÃ³Å¼nych wÄ…tkÃ³w. Ten moduÅ‚ zmusza Perla do
+wywoÅ‚ania funkcji C getpid() i getppid().
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
